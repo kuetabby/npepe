@@ -68,14 +68,14 @@ const AppFooter: React.FC<Props> = () => {
         </div>
 
         <div className="w-full flex flex-wrap justify-center items-center py-2 md:py-4 text-white z-30">
-          <div className="w-full text-3xl text-center mb-6 z-50 relative">
+          {/* <div className="w-full text-3xl text-center mb-6 z-50 relative">
             <Link
               href={socialsLink.email}
               className="w-full text-black hover:!text-blue-300 mb-2"
             >
               -
             </Link>
-          </div>
+          </div> */}
 
           <div className="text-base text-black font-semibold">
             <CopyrightOutlined className="mx-1" style={{ fontSize: "1em" }} />{" "}
