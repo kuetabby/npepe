@@ -77,13 +77,13 @@ const AppFooter: React.FC<Props> = () => {
             </Link>
           </div> */}
 
+          <div className="h-12 sm:h-20" />
           <div className="text-base text-black font-semibold">
             <CopyrightOutlined className="mx-1" style={{ fontSize: "1em" }} />{" "}
             Copyright 2024 | All Rights Reserved
           </div>
         </div>
       </div>
-      <div className="h-6 sm:h-12" />
     </footer>
   );
 };
