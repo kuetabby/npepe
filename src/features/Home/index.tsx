@@ -230,15 +230,15 @@ const Home: React.FC<Props> = () => {
         </div>
 
         <div className="w-full md:w-11/12 xl:w-4/5 text-center flex flex-wrap justify-center items-center gap-y-8 mx-auto mt-12">
-          <div className="w-full sm:w-1/2 lg:w-1/3">
+          {/* <div className="w-full sm:w-1/2 lg:w-1/3">
             <div className={`app-title text-5xl mb-2`}>Total Supply</div>
             <div className={`text-3xl font-bold text-black`}>-</div>
-          </div>
-          <div className="w-full sm:w-1/2 lg:w-1/3">
+          </div> */}
+          <div className="w-full sm:w-1/2">
             <div className={`app-title text-5xl mb-2`}>Contract</div>
             <div className={`text-3xl font-bold text-black`}>Renounced</div>
           </div>
-          <div className="w-full sm:w-1/2 lg:w-1/3">
+          <div className="w-full sm:w-1/2">
             <div className={`app-title text-5xl mb-2`}>LP</div>
             <div className={`text-3xl font-bold text-black`}>Burned</div>
           </div>
